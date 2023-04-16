@@ -1,0 +1,156 @@
+.upper{
+display: flex;
+align-items: center;
+background-color: rgb(254,67,80);
+height: 60px;
+position: relative;
+color: white;
+.man{
+    position: absolute;
+    right: 5%;
+    margin-top: 4%;
+    img{
+        border: 1px solid black;
+        border-radius: 50%;
+        background-color: rgb(184, 179, 179);
+        margin-left: 13px;
+    }
+}
+.mediaapp{
+    padding: 0 40px;
+   
+}
+.search{
+    font-size: 18px;
+    padding: 0 70px;
+}
+i{
+    padding: 0 7px;
+}
+}
+ul{
+    li{ list-style-type: none;
+        margin: 10px;  
+    }
+    a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px; 
+    &:hover{
+        color: rgb(254,67,80); 
+    }
+    }
+    }
+.left{
+    width: 16%;
+    background-color: rgb(25,29,32);
+    height: 850px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 60px 30px 40px 30px;
+}
+hr{
+    width: 85%;
+    margin: 30px auto;
+}
+.lastactivity{  
+    color:white; 
+h4{
+ font-size: 20px;
+ text-align: center;
+ span{
+    border: 1px solid  rgb(254,67,80);
+    border-radius: 50%;
+    padding: 0 7px;
+    margin-left: 5px;
+    background-color:  rgb(254,67,80);
+ }
+}
+.person{
+    display: flex;
+    padding: 15px 8px;
+    .yazi {
+        p:nth-child(2){
+            padding: 7px;
+            color: gray;
+        }
+    span{
+        color: rgb(254,67,80);
+    }
+}
+}
+}
+.left img{
+        border: 1px solid black;
+        border-radius: 50%;
+        background-color: rgb(184, 179, 179);
+    }
+.right{
+    width: 84%;  
+    background-color: rgb(34,43,48);
+    height: 850px;
+    h2{
+        color: white;
+        padding: 40px;
+    }  
+}
+.fullbody{
+    display:flex;
+}
+.row{
+    display: flex;
+    margin: 0 auto;
+    align-self: stretch;
+    width: 93%;
+    margin-bottom: 80px;
+}
+.item{
+    position: relative;
+    img{
+        width: 190px;
+        height: 230px;
+    }
+    span{
+        position: absolute;
+        color: white;
+        padding: 5px 13px;
+        background-color: rgb(240, 181, 18);
+        border-radius: 30px; 
+        margin: -13px 70px;
+        &:hover{
+            background-color:rgb(254,67,80);
+
+        }
+    }
+    i{
+        position: absolute;
+        font-size: 60px;
+        padding: 85px 65px;
+        opacity: 0;
+        transition: .4s;
+        &:hover{
+            position: absolute;
+            opacity: 0.5;
+            background-color:rgb(254,67,80);
+        }
+    }
+    }
+img {
+    transition: .5s;
+    :hover{
+        position: absolute;
+        background-color:gray;
+        opacity: .4;
+    }
+}
+    p{ 
+        color: white;
+        padding: 5px 0;
+    }
+    p:last-child{
+        color: gray;
+    }
+    
+
