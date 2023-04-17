@@ -30,7 +30,16 @@ i{
 }
 ul{
     li{ list-style-type: none;
-        margin: 10px;  
+        padding: 2% 11%;
+        margin: 10px 0;
+        &:hover{
+            background-color: gray;       
+        }
+        i{
+            font-size: 21px; 
+            margin-left: 25px;
+            color: lightgray;
+        }
     }
     a{
     text-decoration: none;
@@ -45,11 +54,17 @@ ul{
     width: 16%;
     background-color: rgb(25,29,32);
     height: 850px;
+    img{
+        border: 1px solid black;
+        border-radius: 50%;
+        background-color: rgb(184, 179, 179);
+    }
 }
 .container{
-    display: flex;
-    justify-content: center;
-    padding: 60px 30px 40px 30px;
+    // display: flex;
+    // justify-content: center;
+    // padding: 60px 30px 40px 30px;
+    margin-top: 50px;
 }
 hr{
     width: 85%;
@@ -82,11 +97,6 @@ h4{
 }
 }
 }
-.left img{
-        border: 1px solid black;
-        border-radius: 50%;
-        background-color: rgb(184, 179, 179);
-    }
 .right{
     width: 84%;  
     background-color: rgb(34,43,48);

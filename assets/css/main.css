@@ -30,7 +30,16 @@
 
 ul li {
   list-style-type: none;
-  margin: 10px;
+  padding: 2% 11%;
+  margin: 10px 0;
+}
+ul li:hover {
+  background-color: gray;
+}
+ul li i {
+  font-size: 21px;
+  margin-left: 25px;
+  color: lightgray;
 }
 ul a {
   text-decoration: none;
@@ -46,11 +55,14 @@ ul a:hover {
   background-color: rgb(25, 29, 32);
   height: 850px;
 }
+.left img {
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: rgb(184, 179, 179);
+}
 
 .container {
-  display: flex;
-  justify-content: center;
-  padding: 60px 30px 40px 30px;
+  margin-top: 50px;
 }
 
 hr {
@@ -82,12 +94,6 @@ hr {
 }
 .lastactivity .person .yazi span {
   color: rgb(254, 67, 80);
-}
-
-.left img {
-  border: 1px solid black;
-  border-radius: 50%;
-  background-color: rgb(184, 179, 179);
 }
 
 .right {
